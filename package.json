@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/narayansiddhu/recipe_manager.git"
+    "url": "git+https://github.com/narayansiddhu/userdirectory.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/narayansiddhu/recipe_manager/issues"
+    "url": "https://github.com/narayansiddhu/userdirectory/issues"
   },
-  "homepage": "https://github.com/narayansiddhu/recipe_manager#readme",
+  "homepage": "https://github.com/narayansiddhu/userdirectory#readme",
   "dependencies": {
     "body-parser": "*",
     "connect-flash": "*",
