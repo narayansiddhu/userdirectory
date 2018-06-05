@@ -1,24 +1,9 @@
-let mongoose = require('mongoose');
+var mongoose = require('mongoose');
+var UserSchema = new mongoose.Schema({
+    username: String,
+    address: String,
+    contact: String,
+    email: String
+  });
 
-// Article Schema
-let recipeSchema = mongoose.Schema({
-  name:{
-    type: String,
-    required: true
-  },
-  address:{
-    type: String,
-    required: true
-  },
-  contact:{
-    type: String,
-    required: true
-  },
-  email:{
-    type:String,
-    required:true
-  }
-
-});
-
-let User = module.exports = mongoose.model('User', recipeSchema);
+  module.exports = mongoose.model('User', UserSchema);
